@@ -19,10 +19,6 @@
 #include "data_str/vector.h"
 #include "data_str/vector_managed.h"
 
-#if defined(WIN32) || defined(_WIN32)
-  #define constexpr 
-#endif
-
 // #define USE_LPRPSO_UPDATE  // otherwise just a PSO update
 
 namespace jtil {

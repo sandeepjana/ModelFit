@@ -26,10 +26,6 @@
 
 #include <Eigen/Eigen>
 
-#if defined(WIN32) || defined(_WIN32)
-  #define constexpr 
-#endif
-
 // C++11 alias declaration --> Wont compile in Visual Studio (not yet supported)
 //template <class T>
 //using MatDynamic = Eigen::Matrix<T, Eigen::Dynamic, Eigen::Dynamic>;

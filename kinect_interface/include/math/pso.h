@@ -18,10 +18,6 @@
 #include "math/math_types.h"
 #include "math/common_optimization.h"
 
-#if defined(WIN32) || defined(_WIN32)
-  #define constexpr 
-#endif
-
 // #define PSO_VERBOSE_SOLVER  // Print out per-iteration information
 
 namespace jtil {

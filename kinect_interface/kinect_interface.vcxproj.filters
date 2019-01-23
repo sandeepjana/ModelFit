@@ -364,5 +364,6 @@
     <None Include="include\Eigen\Eigen">
       <Filter>Header Files\Eigen</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

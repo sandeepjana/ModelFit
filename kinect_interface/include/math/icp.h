@@ -32,10 +32,6 @@
 #include "math/math_types.h"
 #include "data_str/vector.h"
 
-#if defined(WIN32) || defined(_WIN32)
-  #define constexpr 
-#endif
-
 #define ICP_DEFAULT_VERBOSE true
 #define ICP_DEFAULT_ITERATIONS 30
 #define ICP_DEFAULT_COS_NORMAL_THRESHOLD 0.5f  // 60 deg

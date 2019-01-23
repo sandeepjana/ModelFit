@@ -17,4 +17,4 @@
 #endif
 
 #define GL3_PROTOTYPES 1  // Ensure we're using OpenGL's core profile only
-#include <glfw3.h> 
+#include <GLFW/glfw3.h> 

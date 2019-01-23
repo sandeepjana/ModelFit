@@ -365,5 +365,6 @@
     <None Include="shaders\clines.vert">
       <Filter>shaders</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
